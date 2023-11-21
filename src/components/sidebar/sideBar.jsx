@@ -22,7 +22,7 @@ const SideBar = () => {
     <div className={styles.sidebar_container}>
 
      <Container className={`${styles.profile_container} p-2 d-flex flex-column align-items-center`}>
-       <div className={`m-1 ${styles.user_profile}`}>
+       <div className={`m-1  ${styles.user_profile}`}>
        </div>
         <div className={styles.text_container}>
             <h6 className={`text-center ${styles.username}`}>Ram Mohan <FcNext/></h6>
