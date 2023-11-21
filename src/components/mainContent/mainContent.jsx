@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './mainContent.module.css'
 import {Container} from 'react-bootstrap'
+import { MDBCard, MDBCardBody, MDBCardTitle, MDBCardText } from 'mdb-react-ui-kit';
 
 const MainContent = () => {
 
@@ -22,10 +23,21 @@ const MainContent = () => {
                         </div>
                     </div>
                 </Container>
-            </Container>
+                </Container>
+
+                <Container>
+                    <MDBCard>
+                      <MDBCardBody>
+                       <MDBCardTitle>Basic</MDBCardTitle>
+                       <MDBCardText>
+                       </MDBCardText>
+                       </MDBCardBody>
+                     </MDBCard>
+                </Container>
+
         </div>
     </div>
   )
-}
+  }
 
 export default MainContent
