@@ -13,14 +13,15 @@ const Navbar = () => {
     <MDBNavbar  className={`${styles.main_container} p-0 shadow-none`}>
       <div className={styles.navContainer}>
         <div className={styles.logo} href='#'>
-          <img src= {logo} height='100' alt='' loading='lazy'/>
+          <img src= {logo} alt='' loading='lazy'/>
         </div>
 
         <div className={styles.rightSide_nav}>
-        <div>
-          <p>xyz Enterprises Pvt Ltd</p>
+        <div className={styles.enterprises}>
+          <div className={styles.company_profile}></div>
+          <p>XYZ Enterprises Pvt Ltd</p>
         </div>
-        <div>
+        <div className={styles.downArrow}>
           <IoIosArrowDown/>
         </div>
         </div>

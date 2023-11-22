@@ -25,6 +25,10 @@
     height: 5rem;
     border-radius: 50px;
     background-color: blueviolet;
+    background-image: url('../../assets/images/profile.png');
+    background-size: cover;
+    background-position: center;
+
 }
 /* .text_container {
     max-width: 100%;

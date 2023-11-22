@@ -10,12 +10,6 @@ import { MdSupportAgent } from "react-icons/md";
 import { PiWechatLogoFill } from "react-icons/pi";
 
 
-
-
-
-
-
-
 const SideBar = () => {
 
   return (

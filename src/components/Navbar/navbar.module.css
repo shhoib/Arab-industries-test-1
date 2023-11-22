@@ -14,7 +14,72 @@
     margin: 0;
     padding: 0;
 }
+.logo img{
+    width: 250px;
+  height: auto;
+}
 .rightSide_nav{
     display: flex;
     align-items: center;
+    margin-right: 3rem;
+}
+.enterprises{
+    background-color: white;
+    border-radius: 6px;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.enterprises p{
+ margin: 0;
+ font-size: 13px;
+ font-weight: 600;
+ /* padding: 5px; */
+}
+.company_profile{
+    width: 2rem;
+    height: 2rem;
+    background-image: url('../../assets/images/companyProfile.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 50px;
+    margin-right: 3px;
+}
+.downArrow{
+    background-color: white;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+
+}
+
+
+
+@media (max-width : 768px){
+    .logo img{
+        width: 130px;
+    }
+    .rightSide_nav{
+        margin-right: 0;
+    }
+    .enterprises{
+        flex-direction: column;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+    .company_profile{
+        width: 1rem;
+        height: 1rem;
+    }
+    .enterprises p{
+        font-size: 9px;
+    }
 }

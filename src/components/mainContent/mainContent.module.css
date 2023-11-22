@@ -205,23 +205,9 @@ body{
 
 
 
-
-
-
-/* .mainContent_container::-webkit-scrollbar {
-    width: 20px;
-  }
-  
-  .mainContent_container::-webkit-scrollbar-thumb {
-    background-color: skyblue; 
-  }
-  
-  .mainContent_container::-webkit-scrollbar-track {
-    background-color: transparent; 
-  } */
   .mainContent_container::-webkit-scrollbar {
     width: 20px;
-    background-color: rgb(177, 216, 231); /* Set the background color of the scrollbar */
+    background-color: rgb(227,241,254); /* Set the background color of the scrollbar */
   }
   
   .mainContent_container::-webkit-scrollbar-thumb {
