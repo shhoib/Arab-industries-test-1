@@ -3,9 +3,11 @@ import { MDBContainer, MDBNavbar, MDBNavbarBrand } from 'mdb-react-ui-kit';
 import logo from '../../assets/images/img77.jpg'
 import { IoIosArrowDown } from "react-icons/io";
 import styles from './navbar.module.css'
+import { FcMenu } from "react-icons/fc";
 
 
-const Navbar = () => {
+
+const Navbar = ({toggleSidebar}) => {
 
 
   return (
@@ -23,6 +25,9 @@ const Navbar = () => {
         </div>
         <div className={styles.downArrow}>
           <IoIosArrowDown/>
+        </div>
+        <div className={styles.toggle} onClick={toggleSidebar}>
+          <FcMenu/>
         </div>
         </div>
 

@@ -10,10 +10,13 @@ import { MdSupportAgent } from "react-icons/md";
 import { PiWechatLogoFill } from "react-icons/pi";
 
 
-const SideBar = () => {
+const SideBar = ({visible}) => {
+
+  const sidebarClasses = `${styles.sidebar_container} ${visible ? styles.visible : styles.hidden}`;
+   
 
   return (
-    <div className={styles.sidebar_container}>
+    <div className={sidebarClasses}>
 
      <Container className={`${styles.profile_container} p-2 d-flex flex-column align-items-center`}>
        <div className={`m-1  ${styles.user_profile}`}>

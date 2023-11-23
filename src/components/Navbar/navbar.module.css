@@ -58,12 +58,15 @@
     padding-right: 9px;
 
 }
+.toggle{
+    display: none;
+}
 
 
 
 @media (max-width : 768px){
     .logo img{
-        width: 130px;
+        width: 180px;
     }
     .rightSide_nav{
         margin-right: 0;
@@ -81,5 +84,13 @@
     }
     .enterprises p{
         font-size: 9px;
+    }
+    .toggle{
+        display: flex;
+    }
+}
+@media (max-width : 577px){
+    .logo img{
+        width: 130px;
     }
 }
